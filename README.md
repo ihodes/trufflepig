@@ -1,6 +1,6 @@
 # Truffle Pig
 
-Search/replace html truffle.
+Search/replace html truffles.
 
 Truffle pig makes it easy to find what you're looking for in HTML documents and replace it with something else, or nothing at all.
 
