@@ -67,7 +67,7 @@ parser.add_argument('--before', action='store_true',
 def run(args):
     for mod_file in args.mod_files:
         with open(mod_file, 'rb') as i:
-            d = pq(i.read(), parser='xml')
+            d = pq(i.read(), parser='html')
 
         if isinstance(args.input, file):
             args.input = args.input.read()
